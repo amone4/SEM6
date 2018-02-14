@@ -1,0 +1,17 @@
+assignments
+	printing map of india
+		colour punjab red
+
+	print table corresponding a number input by user
+
+commands
+	tracert output => round trip time => used to check latency
+
+	ping
+		-r => tries making a direct connection with a host
+		-R
+		-l => specify size
+		-n => specify number
+		-t => ping continuously
+		-s
+		-S

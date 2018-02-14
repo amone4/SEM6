@@ -1,0 +1,28 @@
+commands
+	imread(<name.extension>) => reads an image
+	rgb2gray(<variable holding image>) => converts coloured image to grey
+	size(<variable holding image>[, <1|2>]) => size of image in row column form. 1 returns only rows, and 2 returns only columns
+	imshow(<variable holding image>) => shows image. typecast the parameter to unint8, if this does not work
+		title(<title>) => give the image a title. use after imshow()
+		figure => to show multiple images on separate windows. use this after every call to imshow()
+		subplot(<rows>,<colums>,<cell number>) => shows multiple images in a single window. use this before every call to imshow()
+	imhist(<variable holding image>) => drawing a histogram of an image. X axis shows the intensity, and Y axis shows the occurrence of that intensity
+
+	adjusting contrast
+
+	adjusting brightness
+
+	range normalization
+
+	bit plane slicing
+
+write a program to
+	convert grey image to binary
+	flip an image vertically and horizontally
+	crop the image
+
+	zoom an image
+
+	overlapping two images
+
+	histogram of an image
