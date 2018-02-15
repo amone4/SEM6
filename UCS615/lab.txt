@@ -8,6 +8,19 @@ commands
 		subplot(<rows>,<colums>,<cell number>) => shows multiple images in a single window. use this before every call to imshow()
 	imhist(<variable holding image>) => drawing a histogram of an image. X axis shows the intensity, and Y axis shows the occurrence of that intensity
 
+write a program to
+	convert grey image to binary
+
+	flip an image vertically and horizontally
+
+	crop the image
+
+	zoom an image
+
+	overlapping two images
+
+	histogram of an image
+
 	adjusting contrast
 
 	adjusting brightness
@@ -16,13 +29,4 @@ commands
 
 	bit plane slicing
 
-write a program to
-	convert grey image to binary
-	flip an image vertically and horizontally
-	crop the image
-
-	zoom an image
-
-	overlapping two images
-
-	histogram of an image
+	histogram equalization : pdf, cdf, mi*cdf, round

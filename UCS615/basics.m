@@ -66,3 +66,9 @@ greyStretched = greyStretch(grey, 100, 200, 50, 250);
 imshow(greyStretched);
 title('grey stretched');
 %}
+
+% histogram equalization
+%{
+outputImage = histEqualize(grey);
+imhist(outputImage);
+%}
