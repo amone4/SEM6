@@ -68,7 +68,7 @@ function [outputImage] = correlation (inputImage, weightMask)
 				end
 			end
 			temp = temp / weightSum;
-			outputImage = round(temp);
+			outputImage(i,j) = round(temp);
 
 		end
 	end
