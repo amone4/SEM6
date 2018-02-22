@@ -30,3 +30,7 @@ write a program to
 	bit plane slicing
 
 	histogram equalization : pdf, cdf, mi*cdf, round
+
+	convolution
+
+	image smoothing

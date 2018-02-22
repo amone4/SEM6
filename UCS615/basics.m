@@ -72,3 +72,12 @@ title('grey stretched');
 outputImage = histEqualize(grey);
 imhist(outputImage);
 %}
+
+correlated = correlation(grey, [1,1,1; 1,1,1; 1,1,1]);
+subplot(1,2,1);
+imshow(correlated);
+title('correlation');
+subplot(1,2,2);
+imshow(grey);
+title('grey');
+imshow();
