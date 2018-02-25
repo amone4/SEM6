@@ -64,7 +64,7 @@ function [outputImage] = correlation (inputImage, weightMask)
 			for k = kstart : kend
 				for l = lstart : lend
 					weightSum = weightSum + weightMask(k,l);
-					temp = temp + (weightMask(k,l) * inputImage(i+k-2,j+l-2));
+					temp = temp + (weightMask(k,l) * double(inputImage(i+k-2,j+l-2)));
 				end
 			end
 			temp = temp / weightSum;
