@@ -9,28 +9,30 @@ commands
 	imhist(<variable holding image>) => drawing a histogram of an image. X axis shows the intensity, and Y axis shows the occurrence of that intensity
 
 write a program to
-	convert grey image to binary
+--	convert grey image to binary
 
-	flip an image vertically and horizontally
+--	flip an image vertically and horizontally
 
-	crop the image
+--	crop the image
 
-	zoom an image
+--	zoom an image
 
 	overlapping two images
 
-	histogram of an image
+--	histogram of an image
 
-	adjusting contrast
+--	adjusting contrast
 
-	adjusting brightness
+--	adjusting brightness
 
 	range normalization
 
 	bit plane slicing
 
-	histogram equalization : pdf, cdf, mi*cdf, round
+--	histogram equalization : pdf, cdf, mi*cdf, round
 
 	convolution
 
-	image smoothing
+--	correlation
+
+--	image smoothing
