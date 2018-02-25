@@ -1,11 +1,11 @@
 function [outputImage] = greyStretch (inputImage, Rmin, Rmax, Smin, Smax)
-	greyStretchSize = size(inputImage);
-	for i = 1 : greyStretchSize(1)
-		for j = 1 : greyStretchSize(2)
+	imageSize = size(inputImage);
+	for i = 1 : imageSize(1)
+		for j = 1 : imageSize(2)
 			if (inputImage(i,j) < Rmax && inputImage(i,j) > Rmin)
 				outputImage(i,j) = Smin + ((Smax - Smin) / (Rmax - Rmin)) * (inputImage(i,j) - Rmin);
 			else
-				outputImage(i,j) = 0;
+				outputImage(i,j) = inputImage(i,j);
 			end
 		end
 	end
