@@ -27,7 +27,7 @@ write a program to
 
 	range normalization
 
-	bit plane slicing
+--	bit plane slicing
 
 --	histogram equalization : pdf, cdf, mi*cdf, round
 
@@ -36,3 +36,9 @@ write a program to
 --	correlation
 
 --	image smoothing
+
+	sharpening filter
+
+	gradient filter
+
+	laplaciun filter

@@ -105,3 +105,27 @@ subplot(1,2,2);
 imshow(grey);
 title('grey');
 %}
+
+% convolution
+%{
+convoluted = convolution(grey, [1,4,1; 4,16,4; 1,4,1]);
+subplot(1,2,1);
+imshow(convoluted);
+title('convolution');
+subplot(1,2,2);
+imshow(grey);
+title('grey');
+%}
+
+% bit plane slicing
+%{
+sliced = bitPlaneSlice(grey);
+subplot(3,3,1);
+imshow(grey);
+title('grey');
+for i = 1 : 8
+	subplot(3,3,i+1);
+	imshow(sliced(:,:,i));
+	title('bit plane');
+end
+%}
