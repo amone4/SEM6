@@ -31,7 +31,7 @@ write a program to
 
 --	histogram equalization : pdf, cdf, mi*cdf, round
 
-	convolution
+--	convolution
 
 --	correlation
 

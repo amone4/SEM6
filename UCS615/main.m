@@ -1,6 +1,6 @@
 clear all;
 
-image = imread('sample.jpg');
+image = imread('sample1.jpg');
 grey = rgb2gray(image);
 
 % basics
@@ -129,3 +129,24 @@ for i = 1 : 8
 	title('bit plane');
 end
 %}
+
+% water marking image
+waterMarkImage = rgb2gray(imread('sample2.jpg'));
+waterMarked = waterMark(grey, waterMarkImage);
+
+subplot(2,2,1);
+imshow(waterMarked);
+title('water marked');
+subplot(2,2,2);
+imshow(grey);
+title('original');
+
+% extract water mark
+extractedWaterMark = extractWaterMark(waterMarked, grey);
+subplot(2,2,3);
+imshow(extractedWaterMark);
+title('extracted water mark');
+subplot(2,2,4);
+imshow(waterMarkImage);
+title('original');
+
