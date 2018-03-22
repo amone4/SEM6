@@ -1,0 +1,284 @@
+week 1-2
+	forensic science: application of physical sciences to law in the search for truth in civil, criminal, and social behavioural matters to the end that injustice shall not be done to any member of the society
+
+	main points:
+		application of scientific method for investigation
+		activities should relate to courts of law
+
+	cyber forensics activities commonly include:
+		secure collection of computer data
+		identification of suspect data
+		examination of suspect data to determine details such as origin and content
+		presentation of computer-based information to courts of law
+		application of a country's laws to computer practice
+
+	digital forensics: it is the use of scientifically derived and proven methods towards the preservation, collection, validation, identification, analysis, interpretation, documentation and presentation of digital evidence derived from digital sources
+
+	computer forensics: it is the lawful and ethical seizure, acquisition, analysis, reporting and safeguarding of data and meta-data derived from digital devices
+
+	network forensics: the study of network traffic to search for truth in civil, criminal and administrative matters to protect users and resources from exploitation, invasion of privacy and any other crime fostered by the continual expansion of network connectivity
+
+	basic components of computer forensics investigation methodology:
+		acquiring evidence
+		authenticating evidence
+		analysing data
+	(integrity of evidence should be maintained in all components)
+
+	basic order for forensics: CPU, cache and register content, routing table, ARP cache, process table, kernel statistics, temporary file system, data on hard disk, remotely logged data and data contained on archival media
+
+	most accepted definition of cyber-crime: a crime in which a computer was directly and significantly instrumental
+
+	two types of cyber crimes:
+		techno-crime: premeditated act against a system or systems, with an intent to copy, steal, prevent access, corrupt, or damage parts of or the complete computer system
+		techno-vandalism: defacement of websites, and/or other activities such as copying files and publicising their contents
+
+	differences between terrestrial and cyber crimes:
+		how to commit them is easier to learn
+		they require few resources relative to the potential damage caused
+		they can be committed in a jurisdiction without being physically present in it
+		they are often not clearly illegal
+
+	cyber-terrorism: a person, group, or organisation, with terrorist intent, utilising electronic systems, committing a terrorist attack
+
+	phishing: refers to an attack using mail programs to deceive or coax internet users into disclosing confidential information that can be then exploited for illegal purposes
+
+	pharming: redirecting a websites traffic to another website
+
+	spoofing: altering data and masquerading as someone else
+
+	wire transfer attack:
+
+	cyber-security: protecting information, equipment, devices, computer, computer resource, communication device and information stored therein from unauthorized access, use, disclosure, disruption, modification or destruction
+
+	types of cyber-criminals:
+		type 1 - hungry for recognition
+		type 2 - not interested in recognition
+		type 3 - insiders
+
+	classification of cyber-crimes:
+		crimes against individuals: email spoofing, phishing, spear phishing, vishing, smishing, spamming, cyber-defamation, cyber-stalking, computer sabotage, password sniffing
+
+		crimes against property: credit card fraud, intellectual property crimes, internet time theft
+
+		crimes against organisation: unauthorised access, password sniffing, denial of service, virus attack, email bombing, salami attack, logic attack, data diddling, industrial espionage, computer network intrusions, software piracy
+
+		crimes against society: forgery, cyber-terrorism, web jacking
+
+	usenet groups may carry very offensive, harmful, inaccurate or otherwise inappropriate material, or in some cases, postings that have been mislabelled or are deceptive in another way
+
+	search engine spamming: pages created deliberately to trick the search engine into offering inappropriate, redundant, or poor-quality search results
+
+	search engine spamming can be avoided by avoiding:
+		repeating keywords
+		use of keywords that don't relate to the site
+		use of fast meta refresh
+		redirection
+		IP cloaking
+		use of coloured text on same colour background
+		duplication of pages with different URLs
+
+	cyber-defamation: defamation with the help of computer and/or internet
+	the law on defamation attempts to create a workable balance between two equally important human rights
+		the right to an unimpaired reputation
+		the right to freedom of expression
+
+	internet time theft: occurs when an unauthorized person uses the internet hours paid for by another person - related to identity theft
+
+	data diddling: involves altering raw data just before it is processed by a computer and then changing it back after the processing is completed
+
+	there are two distinct business models for cyber-crime applied to industrial spying: selling trojan-ware; selling stolen intellectual property
+
+	purpose of hacking: greed, power, publicity, revenge, adventure, desire to access forbidden information, destructive mindset
+
+	--- read slides from 40 - 46 ---
+
+	cyber-crimes in India are punishable under 2 categories: ITA 2000 and IPC
+
+	extended enterprise: represents the concept that a company is made up not just of its employees, its board members and executives, but also its business partners, its suppliers and even its customers
+
+	netizen is someone who spends considerable time online and also has a considerable presence online (through websites about the person, through his/her active blog contribution and/or also his/her participation in the online chat rooms)
+	the 5P netizen mantra for online security is: precaution, prevention, protection, preservation and perseverance
+
+week 4
+	exploits
+		inadequate border protection (border as in the sense of network periphery)
+		remote access servers (RASs) with weak access controls
+		application servers with well-known exploits
+		misconfigured systems and systems with default configurations
+
+	cyber-crime might be a single event or a series of events
+
+	phases of planning a cyber-crime
+		information gathering (usually passive) - footprinting (accumulating data about target's environment) - tools that can be used for passive attack (google earth, people search)
+		scanning information gathered to identify vulnerabilities
+		launching the attack
+
+	active attack: involves probing the network to discover individual hosts to confirm the information gathered in the passive attack phase - involves the risk of detection - active reconnaissance can provide confirmation to an attacker about security measures in place - tool: arphound, arping, bing, bugtraq, dig, dnstracer
+
+	objectives of scanning: port scanning, network scanning, vulnerability scanning
+
+	steps in attack: crack the password; exploit the privileges; execute the malicious commands/applications; hide the files (if required); cover the tracks
+
+	social engineering can be
+		human based: impersonating an employee; posing as an important user; using a third person; calling technical support; shoulder surfing (seeing the password); dumpster diving (sorting through the computer junk files)
+		computer based: fake emails, email attachments, pop-up windows
+
+week 5-6
+	cyber-stalking: use of information and communications technology, particularly the internet, by an individual or group of individuals to harass another individual, group of individuals, or organization
+
+	types of stalkers: online and offline
+
+	ITA: Indian information technology act
+
+	cyber-cafes - network service providers - liable for any cyber-crime committed inside their network
+
+	tips for security in cyber-cafe:
+		always logout
+		stay with the computer
+		clear history and temporary files
+		be alert
+		avoid online financial transactions
+		change passwords
+		virtual keyboard
+		security warnings
+
+	steps for secure system: anti-virus up to data; firewall; OS with security patches; disconnect internet when not in use; freeware only from trusted websites; checking outgoing mails
+
+	attack vector and payloads: if an attack vector is thought of as a guided missile, its payload can be compared to the warhead in the tip of the missile
+
+	cloud services - public; private; virtual private (e.g. a folder on google drive, shared with only a few people)
+
+	risks with cloud computing: elevated user access; regulatory compliance; location of the data; segregation of data; recovery of data; information security violation reports; long-term viability
+
+	steganography: method that attempts to hide the existence of a message or communication
+
+	steganalysis: art and science of detecting messages that are hidden in images, audio/video files using steganography
+
+	hot spares: machines that can be placed into service quickly if a similar machine is disabled
+
+	types of buffer overflow attacks: stack-based; NOPs; heap
+
+	components of wireless network: access points; wireless device
+
+	types of credit card frauds:
+		traditional techniques: criminal uses stolen and fake documents to build PII (personally identifiable information)
+		application fraud: ID theft; financial fraud (giving fake information)
+		modern techniques: skimming (copying information on credit card strip or smart chip); site cloning
+
+	--- read last two slides ---
+
+week 7
+	cyber-theft: using a computer and network to steal information, money, or other valuables - closely related to cyber-fraud
+	ways:
+		embezzlement: entrusted person exploiting trust for monetary gain
+		industrial espionage
+		plagiarism
+		piracy
+		identity theft
+		DNS cache poisoning
+
+	factors prioritizing cyber-crime enforcement:
+		extent of harm
+		frequency of occurrence
+		availability of personnel
+		training of personnel
+		jurisdiction
+		difficulty of investigation
+		political factors
+
+	criminal profiling: the art and science of developing a description of a criminal’s characteristics (physical, intellectual, and emotional) based on information collected at the scene(s) of the crime(s)
+	methods:
+		inductive: specific to the general - statistics applied to already known criminals and crimes
+		deductive: general to the specific - information about the crime scene is used
+
+	deductive method involves several distinct steps:
+		a problem is stated
+		information is collected
+		a working hypothesis is formulated
+		the hypothesis is tested
+		results of the test are examined
+		one or more conclusions are reached
+
+	use of criminal profile
+		to narrow the field of suspects
+		to link related crimes
+		to give investigators valuable leads to follow
+
+	use of victimology
+		it allows law enforcement officers to predict what people or personality types are likely to become victims of certain crimes and warn them
+		this in turn gives the potential victims the opportunity to take steps to protect themselves
+		it allows law enforcement officers to better profile the criminal, because patterns in victim choice are an important part of the criminal profile
+
+	categorizing victims of cyber-crime
+		people who are new to the net
+		people who are naturally naive (sometimes including the young and the elderly)
+		people who are disabled or disadvantaged
+		the desperate, who are greedy, are lonely, or have other emotional needs
+		pseudo-victims who report having been victimized but actually were not
+		people who are simply unlucky enough to be in the wrong (virtual) place at the wrong time
+
+	understanding the criminal’s motive is useful at two points in the investigation:
+		when we are creating a profile to help us identify the correct suspect(s)
+		when we present the case against our suspect
+
+	common motives for committing cyber-crimes include:
+		for fun
+		monetary profit
+		anger, revenge, and other emotional needs
+		political motives
+		sexual impulses
+		serious psychiatric illness
+
+	abstract qualities of a cyber investigator:
+		excellent observation skills
+		good memory
+		organization skills
+		documentation skills
+		objectivity
+		knowledge
+		ability to think like a criminal
+		intellectually controlled constructive imagination (creative)
+		curiosity
+		stamina
+		patience
+		love of learning
+
+	technical knowledge required for a cyber investigator
+		a basic understanding of computer science
+		an understanding of computer networking protocols
+		knowledge of computer jargon
+		an understanding of hacker culture
+		knowledge of computer and networking security issues
+
+	types of investigator
+		investigators who specialize in computer/network crime
+		computer specialists who conduct investigations
+		those who are equally skilled, trained, or interested in investigation and IT
+		those who have no real skills or interest in either investigation or IT
+
+week 8
+	three major roles when conducting an investigation:
+		first responder: identifying the crime scene; protecting the crime scene; preserving temporary and fragile evidence
+		investigator: establishing chain of command; conducting crime scene search; maintaining integrity of evidence
+		crime scene technician: preserving volatile data and duplicating disks; shutting down systems for transport; tagging and logging the evidence; packaging evidence; processing the evidence
+
+	investigation methodology is the practices, procedures, and techniques used to collect, store, analyse, and present information and evidence to court of law
+
+	three stages of computer forensic investigation
+		acquisition: act of gathering information
+		authentication: acquired evidence is same as originally seized data
+		analysis: examining and evaluating information
+
+	a policy is used to address concerns and identify risks to a company, whereas procedures are used to provide information on how to perform specific tasks and/or deal with a problem
+	through the procedure, people are shown how to abide by policies by specific instructions
+
+	acceptable use policies: also specify methods of how information can be distributed to the public
+	incident response policies: implemented to provide an understanding of how certain incidents are to be dealt with
+
+	six steps of investigation process:
+		preparation
+		detection
+		containment
+		eradication
+		recovery
+		follow-up

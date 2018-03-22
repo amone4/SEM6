@@ -10,9 +10,15 @@ int main(int argc, char **argv, char **env) {
 	}
 	num_env_vars++;
 	cout << "number of variables: " << num_env_vars << endl;
-	return num_env_vars;
-}
 
+	cout << argc << endl;
+
+	for (int i = 0; i < argc; i++)
+		cout << argv[i] << endl;
+
+	return 0;
+}
+/*
 // method prints the value of the required environment variable
 int main(int argc, char **argv) {
 	char* value = getenv(argv[2]);
@@ -28,4 +34,4 @@ int main(int argc, char **argv) {
 	else cout << "variable not found" << endl;
 	getchar();
 	return 0;
-}
+}*/

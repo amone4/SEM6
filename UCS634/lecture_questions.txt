@@ -1,6 +1,0 @@
-class questions
-	Prompt (Environment Variable) and study how it can be manipulated
-
-	Write a program to access and manipulate environment variables.
-
-	Write a note on Active and Passive Fingerprinting
