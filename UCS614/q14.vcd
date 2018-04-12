@@ -1,5 +1,5 @@
 $date
-	Wed Apr 04 00:05:51 2018
+	Wed Apr 11 11:06:50 2018
 $end
 $version
 	Icarus Verilog
@@ -11,11 +11,13 @@ $scope module test $end
 $var wire 1 ! qbar $end
 $var wire 1 " q $end
 $var reg 1 # clk $end
-$var reg 1 $ i $end
-$var reg 2 % sr [1:0] $end
+$var reg 1 $ d $end
+$var reg 1 % i $end
+$var reg 1 & reset $end
 $scope module t $end
 $var wire 1 # clk $end
-$var wire 2 & sr [1:0] $end
+$var wire 1 $ d $end
+$var wire 1 & reset $end
 $var reg 1 " q $end
 $var reg 1 ! qbar $end
 $upscope $end
@@ -23,44 +25,55 @@ $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b0 &
-b0 %
-0$
+0&
+0%
+x$
 0#
-0"
-1!
+x"
+x!
 $end
+#2
+0$
 #5
-1$
+1!
+0"
+1%
 1#
+#6
+1$
+#8
+1&
 #10
 0$
+0%
 0#
-b1 %
-b1 &
-#15
+#14
 1$
+#15
+1%
 1#
-#20
-0$
-0#
-b10 %
-b10 &
-#25
+#16
 0!
 1"
+0&
+#18
+0$
+#20
+0%
+0#
+#22
 1$
+#24
+1!
+0"
+1&
+#25
+1%
 1#
+#26
+0$
 #30
-0$
-0#
-b11 %
-b11 &
-#35
-x!
-z"
 1$
-1#
-#40
-0$
+0%
 0#
+#32
