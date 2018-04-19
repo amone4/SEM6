@@ -130,6 +130,8 @@ for i = 1 : 8
 end
 %}
 
+% water mark
+%{
 % water marking image
 waterMarkImage = rgb2gray(imread('sample2.jpg'));
 waterMarked = waterMark(grey, waterMarkImage);
@@ -149,4 +151,6 @@ title('extracted water mark');
 subplot(2,2,4);
 imshow(waterMarkImage);
 title('original');
+%}
+
 
